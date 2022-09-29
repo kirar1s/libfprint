@@ -155,6 +155,8 @@ driver_sources = {
         [ 'drivers/realtek/realtek.c' ],
     'focaltech_moc' :
         [ 'drivers/focaltech_moc/focaltech_moc.c' ],
+    'fpcmoh' :
+        [ 'drivers/fpcmoh/fpc.c'],
 }
 
 helper_sources = {
@@ -167,6 +169,8 @@ helper_sources = {
     'nss' :
         [ ],
     'udev' :
+        [ ],
+    'fpcbep' :
         [ ],
     'virtual' :
         [ 'drivers/virtual-device-listener.c' ],
